@@ -1,0 +1,52 @@
+Problem (Compressed, Neutral Terminology)
+
+Manual review of 1600+ documents & messages → slow, inconsistent assessments.
+
+Need automated identification of unusual behavior patterns and communication risks at scale.
+
+Solution Pipeline (Actual Workflow Followed)
+
+1. Data Consolidation
+All PDFs → Single Excel (Folder, File, Extracted Text).
+
+2. Chunking Layer
+Large text split into small, analyzable chunks.
+
+3. Scenario-Driven Prompting
+
+“Canon Scenarios” = realistic example situations to guide interpretation.
+
+Few-shot examples teach the model the expected output style.
+
+4. LLM Classification (Gemini)
+Each chunk → Assigned category + scenario triggers + short justification.
+
+5. Caching Layer
+Processed chunks stored → prevents re-runs, reduces compute cost, handles retries.
+
+6. Final Output
+Unified Excel/CSV with all classifications for expert review.
+
+Pipeline Visual (Left → Right)
+
+📂 Data → ✂️ Chunking → 🎯 Scenario Prompting → 🤖 LLM Analysis → 💾 Caching → 📊 Final Report
+
+Key Strengths
+
+Consistent, explainable output (every chunk receives a justification).
+
+Scalable & cost-efficient with caching.
+
+Expert-ready structured summaries.
+
+Output Format
+
+Chunk ID → Text → Category → Scenario Triggered → Explanation → File → Folder.
+
+Business Impact
+
+70–90% automation of review workflow.
+
+Faster expert validation cycles.
+
+Higher confidence from standardized assessments.
