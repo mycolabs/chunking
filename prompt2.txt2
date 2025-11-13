@@ -1,0 +1,195 @@
+Create a professional 10-slide leadership presentation.
+
+Title of the deck:
+“Automated Behavior Manipulation Detection – Enterprise AI Pipeline for Compliance & Conduct Risk”
+
+Style:
+- Executive-ready
+- Minimal, crisp bullet points
+- Clean icons
+- No technical jargon unless necessary
+- Balanced visuals + text
+- White background, modern design
+
+Slides to generate:
+
+---
+
+Slide 1 — Title Slide  
+Title: Automated Behavior Manipulation Detection  
+Subtitle: Enterprise-Grade AI Pipeline for Compliance & Conduct Risk  
+Prepared by: [Your Name]  
+Date:  
+Use a clean corporate-style header with simple icons.
+
+---
+
+Slide 2 — Executive Summary  
+Include these points:  
+- Manual review of 1600+ PDFs, chats, emails → slow, inconsistent, high effort  
+- Risk of missing manipulative behavior (price manipulation, MNPI leakage, misleading communication, auction/system abuse)  
+- Built a hybrid AI pipeline: scenario-based prompting, chunking, LLM classification, caching  
+- Output: SME-ready Excel with labels & justifications  
+- Impact: 70–90% automation, consistency, and audit readiness
+
+Make this visually clean with 3–4 bold takeaway boxes.
+
+---
+
+Slide 3 — Business Problem  
+Add bullets:  
+- Manual review effort too high  
+- Variable human judgment → inconsistent outcomes  
+- No structured mapping of behaviors to findings  
+- High risk of false negatives  
+- Limited auditability  
+Add a simple risk icon row at the top.
+
+---
+
+Slide 4 — Project Goal  
+Bullet points:  
+- Transform manual compliance review → proactive, AI-assisted workflow  
+- Process 1600+ files reliably  
+- Detect manipulative behavior with precision  
+- Provide full justification for each clean or flagged chunk  
+- Deliver SME-ready structured output  
+Use a target/goal visual.
+
+---
+
+Slide 5 — End-to-End Pipeline Overview  
+Use a horizontal pipeline layout with these steps:
+
+1. **Data Consolidation**  
+Convert all PDFs → one Excel with folder, filename, content.
+
+2. **Chunking Layer**  
+Break large text into small reviewable chunks.
+
+3. **Prompt Engineering**  
+Canon Scenarios (manipulation examples) + Few-shot examples.
+
+4. **LLM Classification**  
+Chunk → label → triggered scenario → explanation.
+
+5. **Caching System**  
+Cost-efficient, prevents reprocessing, handles network drops.
+
+6. **Final Output**  
+Excel/CSV: Chunk ID → Content → Classification → Scenario → Explanation → Filename → Folder.
+
+Use icons for each stage.
+
+---
+
+Slide 6 — Pipeline Architecture (Visual Diagram)  
+Create a simple left-to-right visual:
+
+📁 Data (PDFs)  
+↓  
+📄 Consolidation (Excel file)  
+↓  
+✂ Chunking  
+↓  
+🧩 Canon Scenarios + Few-Shot Prompting  
+↓  
+🤖 LLM Classification  
+↓  
+🗄 Caching Layer  
+↓  
+📊 Final SME Output
+
+Clean, modern flow diagram.
+
+---
+
+Slide 7 — Example Output (Detection)  
+Include TWO examples:
+
+Example 1 — Manipulative Chunk  
+Text: “Keep the price around 6.20 and don’t undercut the competitor.”  
+Output:  
+- Classification: Price Manipulation  
+- Triggered Scenario: Coordinated Pricing  
+- Explanation: Intent detected to influence pricing.  
+- SME Action: Review
+
+Example 2 — Clean Chunk  
+Text: “Sharing the updated numbers.”  
+Output:  
+- Classification: Clean  
+- Explanation: No manipulation, pricing hints, or MNPI.  
+
+Use a split-screen layout.
+
+---
+
+Slide 8 — Key Strengths  
+Use these points:  
+- Explainable AI → every chunk has justification  
+- Consistent behavior detection  
+- Cost-optimized with caching  
+- Scalable to large volumes  
+- No external APIs; compatible with enterprise Copilot  
+- Full audit trail  
+
+---
+
+Slide 9 — Business Impact  
+Four pillars:
+
+**Efficiency**  
+- 70–90% automation  
+- Faster SME review  
+
+**Risk Reduction**  
+- Lower false negatives  
+- Stronger detection of subtle behaviors  
+
+**Cost Savings**  
+- Reduced LLM calls via caching  
+- Fewer human hours  
+
+**Regulatory Confidence**  
+- Structured, auditable, uniform outputs  
+
+Include simple icons for efficiency, risk, cost, trust.
+
+---
+
+Slide 10 — Roadmap  
+Show as 3 phases:
+
+**Phase 1 — Completed**  
+PDF → Excel  
+Chunking engine  
+Canon Scenarios  
+Few-shot prompting  
+LLM classification  
+Caching  
+Final structured output  
+
+**Phase 2 — Next 60 Days**  
+Expand scenarios (20 → 100+)  
+Dashboard & trend views  
+Voice transcript support  
+SME ticket triage workflow  
+
+**Phase 3 — Vision**  
+Bank-wide conduct surveillance  
+Real-time chat/email/voice analysis  
+Alerts & risk scoring  
+Compliance command center dashboard  
+
+Include a timeline visual.
+
+---
+
+Design Notes:
+- Use icons for data, AI, classification, caching, and output.
+- Keep text concise.
+- Ensure each slide has a clear top-level heading.
+- Executive-friendly language: short, sharp, outcome-driven.
+
+Generate the full deck with the above structure.
